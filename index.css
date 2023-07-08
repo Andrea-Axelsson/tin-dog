@@ -1,0 +1,153 @@
+/* LAYOUT */
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    
+}
+
+.container{
+    width: 95%;
+    max-width: 375px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25em;
+}
+
+main{
+    padding-top: 1.25em;
+}
+
+.match-photo{
+    position: relative;
+    height: 500px;
+    max-width: 100%;
+    background-size: cover;
+    background-image: url("images/dog-teddy.jpg");
+    border-radius: 1rem;
+}
+
+footer{
+    
+}
+
+/* ICON STYLES */
+
+.small-icon{
+    width: 30px;
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.logo:hover{
+    width: 90px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+
+
+.white-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 5px 5px 10px #bebebe;  
+}
+
+.dislike:hover{
+    background-color: #FFE7EF;
+}
+
+.like:hover{
+    background-color: #DBFFF4;
+}
+
+
+.button-icon{
+    width: 30px;
+    position: relative;
+    
+}
+
+.badge{
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+    width: 180px;
+    transform: rotate(-35deg);
+    display: none;
+}
+
+/* FONTS */
+
+h1, p {
+    margin: 0;
+    color: #F8F8F8;
+}
+
+h1{
+    
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-top: 0.5em;
+}
+
+.text{
+    position: absolute;
+    padding: 0.75em;
+    left: 0;
+    bottom: 0;
+}
+
+/* EFFECTS */
+
+/* .fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-in.show {
+  opacity: 1;
+} */
+
